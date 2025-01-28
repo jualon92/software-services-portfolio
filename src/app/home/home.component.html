@@ -1,41 +1,54 @@
-<section class="welcome-section pb-1  ">
+<section class="welcome-section">
   <h1>¡Bienvenidos!</h1>
-
-  <p>Este sitio contiene una colección de aplicaciones enfocadas en salud y accesibilidad. Nuestro compromiso es desarrollar software que prioriza:</p>
-
+  <p>Este sitio alberga una colección de aplicaciones diseñadas con un enfoque en salud y accesibilidad. </p>
+  <p>Creemos en la tecnología accesible para todos. Nuestras aplicaciones están diseñadas para ser simples, inclusivas y libres de barreras, pensadas especialmente para adultos mayores, niños y personas con poca experiencia tecnológica. <a href="/manifiesto">Descubre más sobre nuestra misión</a>.</p>
+  <h2>¿Qué ofrecen nuestras aplicaciones?</h2>
   <ul class="features-list">
-    <li>Accesibilidad universal</li>
-    <li>Facilidad de uso</li>
-    <li>Soluciones para el sector salud</li>
-    <li>Experiencia de usuario intuitiva</li>
+    <li><strong>Diseño inclusivo:</strong> Pensadas para adultos mayores y niños, con interfaces simples y fáciles de entender.</li>
+    <li><strong>Accesibilidad garantizada:</strong> Cumplen con los estándares de accesibilidad más recientes.</li>
+    <li><strong>Multiplataforma:</strong> Funcionan en PC (Windows/Linux) y como aplicaciones móviles.</li>
+    <li><strong>Multilenguaje:</strong> Soporte para varios idiomas desde el inicio.</li>
+    <li><strong>Ligeras y eficientes:</strong> Utilizan tecnologías web modernas para un rendimiento óptimo.</li>
+    <li><strong>Libres de publicidad:</strong> Sin anuncios ni distracciones.</li>
+    <li><strong>Probadas con usuarios reales:</strong> Cubren casos de uso cotidianos.</li>
+    <li><strong>Desarrollo continuo:</strong> Mejoras y actualizaciones constantes.</li>
   </ul>
 
-  <p>Todas nuestras aplicaciones son de uso libre. Si encuentras útil alguna de ellas, considera hacer una donación para apoyar el desarrollo continuo de estas herramientas.</p>
-
-  <p class="highlight">Explora nuestras soluciones y descubre cómo pueden ayudarte a ti o a tu organización.</p>
+  <!-- <h2>Misión</h2>
+  <p>Creemos que muchas aplicaciones se centran en usuarios jóvenes y familiarizados con la tecnología. Nuestra misión es crear herramientas accesibles para personas con poca experiencia tecnológica, problemas de visión o que buscan soluciones simples y fáciles de usar.</p>
+ -->
+<!--   <h2>Objetivo</h2>
+  <p>Nuestro objetivo es romper las barreras digitales, ofreciendo aplicaciones que sean accesibles para todos, sin importar su edad o nivel de experiencia tecnológica. Queremos marcar la diferencia en la vida de quienes suelen ser ignorados por el mundo tecnológico actual.</p>
+ -->
+  <p class="highlight">¡Explora nuestras soluciones y descubre cómo pueden ayudarte a ti o a tu organización! .</p>
 </section>
-
- 
  
 <section class="apps-section">
   <div class="container">
-    <h2 class="text-center mt-5 mb-4">Nuestras Aplicaciones</h2>
+    <h2 class="text-center mt-1 mb-4">Nuestras Aplicaciones</h2>
     
     <div class="row g-4">
       <!-- MiniCog Card -->
       <div class="col-md-4">
-        <div class="card h-100">
+        <div class="card h-10rem">
           <img src="assets/images/minicog.png" class="card-img-top" alt="MiniCog App">
           <div class="card-body">
             <h3 class="card-title">MiniCog</h3>
+            <div class="description-container"> 
             <p class="card-description">Herramienta de detección temprana de demencia. Prueba rápida y eficaz para evaluación cognitiva.</p>
             <ul class="features-list">
-              <li>Evaluación en 3 minutos</li>
               <li>Interfaz intuitiva</li>
-              <li>Resultados inmediatos</li>
+              <li>Evaluación en 3 minutos</li>
+              <li>Guia paso a paso, multi idioma</li>
+              <li>Voz a texto</li>
               <li>Validado clínicamente</li>
+              <li>Historial de consultas</li>
             </ul>
-            <a href="/apps/minicog" class="btn btn-outline-primary">Ver más</a>
+          </div>
+            <div>
+              <a href="/apps/minicog" class="btn btn-outline-primary btn-see" >Ver más</a>
+            </div>
+          
           </div>
         </div>
       </div>
@@ -46,14 +59,17 @@
         <img src="assets/images/simpleradio.png" class="card-img-top" alt="Radio Simple App">
         <div class="card-body">
           <h3 class="card-title">Radio Simple</h3>
+          <div class="description-container">  
           <p class="card-description">Radio online simplificada pensada para adultos mayores. Fácil de usar, sin complicaciones.</p>
           <ul class="features-list">
-            <li>Interfaz simplificada y accesible</li>
-            <li>Diseñado para adultos mayores</li>
-            <li>Sin publicidad ni distracciones</li>
-            <li>Probado con usuarios reales</li>
+            <li>Interfaz simplificada, sin extras ni vueltas</li>
+            <li>Enfoque en accesibilidad </li>
+            <li>Perfecta para personas que acostumbran usar celular</li>
+           
+            <li>Enfocado en cubrir las demandas dia a dia de usuarios reales</li>
           </ul>
-          <a href="/apps/radio" class="btn btn-outline-primary">Ver más</a>
+        </div>
+          <a href="/apps/radio" class="btn btn-outline-primary btn-see">Ver más</a>
         </div>
       </div>
     </div>
@@ -63,14 +79,18 @@
         <img src="assets/images/antiafk.png" class="card-img-top"     alt="Anti AFK App">
         <div class="card-body">
           <h3 class="card-title">Anti AFK</h3>
-          <p class="card-description">Herramienta para prevenir el apagado de monitores y mantener la sesión activa.</p>
+          <div class="description-container"> 
+          <p class="card-description">Herramienta multi plataforma para prevenir el apagado de monitores y mantener la sesión activa. </p>
           <ul class="features-list">
-            <li>Previene apagado de monitores</li>
+            <li>Mantiene sesion activa </li>
+            <li>No interfiere a usuario, discreto</li>
             <li>Interfaz gráfica minimalista</li>
-            <li>Opciones personalizables</li>
+            <li>Horarios personalizables</li>
             <li>Ligero y eficiente</li>
+
           </ul>
-          <a href="/apps/afk" class="btn btn-outline-primary">Ver más</a>
+        </div>
+          <a href="/apps/afk" class="  btn btn-outline-primary btn-see">Ver más</a>
         </div>
       </div>
     </div>
