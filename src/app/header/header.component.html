@@ -12,29 +12,35 @@
         Filo Software Solutions
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <button class="navbar-toggler" 
+      type="button" 
+      (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" 
+      aria-controls="navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" routerLink="/">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/mision">Nuestra mision</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/sobre-nosotros">Sobre Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-primary" routerLink="/contacto">Contacto</a>
-          </li>
-        </ul>
-      </div>
+<div class="collapse navbar-collapse" 
+   id="navbarNav" 
+   [ngbCollapse]="isCollapsed">
+<ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+    <a class="nav-link  " routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " routerLink="/mision" routerLinkActive="active">Nuestra misión</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " routerLink="/proyectos" routerLinkActive="active">Proyectos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " routerLink="/sobre-nosotros" routerLinkActive="active">Sobre Nosotros</a>
+  </li>
+  <li class="nav-item">
+    <a class="btn btn-light" routerLink="/contacto">Contacto</a>
+  </li>
+</ul>
+</div>
     </div>
   </nav>
 </header>
