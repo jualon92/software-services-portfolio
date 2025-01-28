@@ -1,0 +1,20 @@
+.welcome-section {
+  padding: 2rem 0;
+  padding-left:10vw; 
+  .features-list {
+    margin: 1.5rem 0;
+    padding-left: 1.2rem;
+  }
+  
+  .highlight {
+    color: var(--celeste-primary);
+    font-weight: 500;
+  }
+}
+
+.card-img-top {
+  height: 200px; // altura fija
+  width: 100%;   // ancho completo
+  object-fit: cover; // mantiene proporción
+  object-position: center; // centra la imagen
+}
