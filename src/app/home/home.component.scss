@@ -23,3 +23,13 @@
 .description-container{
   min-height: 250px;
 }
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  .btn {
+    flex: 1;
+  }
+}
