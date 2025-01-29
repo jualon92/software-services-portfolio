@@ -40,7 +40,8 @@
               "node_modules/bootstrap-icons/font/bootstrap-icons.css"
             ],
             "scripts": [],
-             "baseHref": "/software-portfolio/",
+             "baseHref": "/software-services-portfolio/",
+             "deployUrl": "/software-services-portfolio/",
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
