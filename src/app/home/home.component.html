@@ -1,19 +1,100 @@
-<div class="wrapper d-flex justify-content-center" > 
+<div class="wrapper d-flex justify-content-center mt-4" > 
 <section class="welcome-section" style="width:71%">
   <h1>¡Bienvenidos!</h1>
   <p>Este sitio alberga una colección de aplicaciones diseñadas con un enfoque en salud y accesibilidad. </p>
   <p>Creemos en la tecnología accesible para todos. Nuestras aplicaciones están diseñadas para ser simples, inclusivas y libres de barreras, pensadas especialmente para adultos mayores, niños y personas con poca experiencia tecnológica. <a [routerLink]="['/mision']">Descubre más sobre nuestra misión</a>.</p>
   <h2>¿Qué ofrecen nuestras aplicaciones?</h2>
-  <ul class="features-list">
-    <li><strong>Diseño inclusivo:</strong> Pensadas para adultos mayores y niños, con interfaces simples y fáciles de entender.</li>
-    <li><strong>Accesibilidad garantizada:</strong> Cumplen con los estándares de accesibilidad más recientes.</li>
-    <li><strong>Multiplataforma:</strong> Funcionan en PC (Windows/Linux) y como aplicaciones móviles.</li>
-    <li><strong>Multilenguaje:</strong> Soporte para varios idiomas desde el inicio.</li>
-    <li><strong>Ligeras y eficientes:</strong> Utilizan tecnologías web modernas para un rendimiento óptimo.</li>
-    <li><strong>Libres de publicidad:</strong> Sin anuncios ni distracciones.</li>
-    <li><strong>Probadas con usuarios reales:</strong> Cubren casos de uso cotidianos.</li>
-    <li><strong>Desarrollo continuo:</strong> Mejoras y actualizaciones constantes.</li>
-  </ul>
+
+  <div class="row gy-3 py-3">
+    <!-- Card 1: Diseño inclusivo -->
+    <div class="col-md-3">
+
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-users fa-3x mb-3"></i>
+          <h5 class="card-title">Diseño inclusivo</h5>
+          <p class="card-text">Pensadas para adultos mayores y niños, con interfaces simples y fáciles de entender.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 2: Accesibilidad garantizada -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-universal-access fa-3x mb-3"></i>
+          <h5 class="card-title">Accesibilidad garantizada</h5>
+          <p class="card-text">Cumplen con los estándares de accesibilidad más recientes.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 3: Multiplataforma -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-desktop fa-3x mb-3"></i>
+          <h5 class="card-title">Multiplataforma</h5>
+          <p class="card-text">Funcionan en PC (Windows/Linux) y como aplicaciones móviles.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 4: Multilenguaje -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-language fa-3x mb-3"></i>
+          <h5 class="card-title">Multilenguaje</h5>
+          <p class="card-text">Soporte para varios idiomas desde el inicio.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 5: Ligeras y eficientes -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-bolt fa-3x mb-3"></i>
+          <h5 class="card-title">Ligeras y eficientes</h5>
+          <p class="card-text">Utilizan tecnologías web modernas para un rendimiento óptimo.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 6: Libres de publicidad -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-ad fa-3x mb-3"></i>
+          <h5 class="card-title">Libres de publicidad</h5>
+          <p class="card-text">Sin anuncios ni distracciones.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 7: Probadas con usuarios reales -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body ">
+          <i class="fas fa-user-check fa-3x mb-3"></i>
+          <h5 class="card-title">Probadas con usuarios reales</h5>
+          <p class="card-text">Cubren casos de uso cotidianos.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 8: Desarrollo continuo -->
+    <div class="col-md-3">
+      <div class="card pros-card ">
+        <div class="card-body">
+          <i class="fas fa-sync fa-3x mb-3"></i>
+          <h5 class="card-title">Desarrollo continuo</h5>
+          <p class="card-text">Mejoras y actualizaciones constantes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- <h2>Misión</h2>
   <p>Creemos que muchas aplicaciones se centran en usuarios jóvenes y familiarizados con la tecnología. Nuestra misión es crear herramientas accesibles para personas con poca experiencia tecnológica, problemas de visión o que buscan soluciones simples y fáciles de usar.</p>
@@ -21,14 +102,18 @@
 <!--   <h2>Objetivo</h2>
   <p>Nuestro objetivo es romper las barreras digitales, ofreciendo aplicaciones que sean accesibles para todos, sin importar su edad o nivel de experiencia tecnológica. Queremos marcar la diferencia en la vida de quienes suelen ser ignorados por el mundo tecnológico actual.</p>
  -->
-  <p class="highlight">¡Explora nuestras soluciones y descubre cómo pueden ayudarte a ti o a tu organización! .</p>
+  <!-- <p class="highlight">¡Explora nuestras soluciones y descubre cómo pueden ayudarte a ti o a tu organización! .</p> -->
 </section>
 </div>
+
+
+
+
 <section class="apps-section">
   <div class="container">
-    <h2 class="text-center mt-1 mb-4">Nuestras Aplicaciones</h2>
+    <h2 class="text-center mt-1 mb-3 mt-2">Nuestras Aplicaciones</h2>
 
-    <div class="row g-4">
+    <div class="row g-4 pt-2">
       <!-- MiniCog Card -->
       <div class="col-md-4">
         <div class="card h-10rem">
@@ -143,7 +228,7 @@
 
 <section class="services-section">
   <div class="container">
-    <h2 class="text-center mt-5 mb-4">¿Qué Ofrecemos?</h2>
+    <h2 class="text-center mt-4 mb-4">¿Qué Ofrecemos?</h2>
     <div class="row g-4">
       <!-- Integración de Sistemas -->
       <div class="col-md-6">
