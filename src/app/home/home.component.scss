@@ -1,7 +1,7 @@
 .welcome-section {
   padding: 2rem 0;
   padding-bottom:1rem;
-  width: 71%;
+/*   width: 91%; */
 
   @media screen and (max-width: 1500px) {
     width: 100%!important;
@@ -19,7 +19,7 @@
 }
 
 .card-img-top {
-  height: 200px; // altura fija
+  height: 230px; // altura fija
   width: 100%;   // ancho completo
   object-fit: cover; // mantiene proporción
   object-position: center; // centra la imagen
