@@ -1,256 +1,210 @@
-<div class="wrapper d-flex justify-content-center mt-4 container" > 
-<section class="welcome-section" >
-  <h1>¡Bienvenidos!</h1>
-  <p>Este sitio alberga una colección de aplicaciones diseñadas con un enfoque en salud y accesibilidad. </p>
-  <p>Creemos en la tecnología accesible para todos. Nuestras aplicaciones están diseñadas para ser simples, inclusivas y libres de barreras, pensadas especialmente para adultos mayores, niños y personas con poca experiencia tecnológica. <a [routerLink]="['/mision']">Descubre más sobre nuestra misión</a>.</p>
-  <h2>¿Qué ofrecen nuestras aplicaciones?</h2>
-
-  <div class="row gy-4 py-3">
-    <!-- Card 1: Diseño inclusivo -->
-    <div class="col-md-3">
-
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-users fa-3x mb-3"></i>
-          <h5 class="card-title">Diseño inclusivo</h5>
-          <p class="card-text">Pensadas para adultos mayores y niños, con interfaces simples y fáciles de entender.</p>
-        </div>
-      </div>
-    </div>
+<div class="wrapper d-flex justify-content-center mt-4 container"> 
+  <section class="welcome-section">
+    <h1>Welcome!</h1>
+    <p>This site hosts a collection of applications designed with a focus on health, ease of use, and accessibility.</p>
+    <p>These applications are designed to be simple, inclusive, and barrier-free, especially designed for seniors, children, and people with limited technological experience. <a [routerLink]="['/mision']">Learn more about our mission</a>.</p>
   
-    <!-- Card 2: Accesibilidad garantizada -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-universal-access fa-3x mb-3"></i>
-          <h5 class="card-title">Accesibilidad garantizada</h5>
-          <p class="card-text">Cumplen con los estándares de accesibilidad más recientes.</p>
+    <div class="row gy-4 py-3">
+      <!-- Card 1: Inclusive Design -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <h5 class="card-title">Inclusive Design</h5>
+            <p class="card-text">Designed for seniors and children, with simple and easy-to-understand interfaces.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 2: Guaranteed Accessibility -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-universal-access fa-3x mb-3"></i>
+            <h5 class="card-title">Guaranteed Accessibility</h5>
+            <p class="card-text">Compliant with the latest accessibility standards.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 3: Cross-platform -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-desktop fa-3x mb-3"></i>
+            <h5 class="card-title">Cross-platform</h5>
+            <p class="card-text">Works on PC (Windows/Linux) and as mobile applications.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 4: Multi-language -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-language fa-3x mb-3"></i>
+            <h5 class="card-title">Multi-language</h5>
+            <p class="card-text">Support for multiple languages from the start.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 5: Light and Efficient -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-bolt fa-3x mb-3"></i>
+            <h5 class="card-title">Light and Efficient</h5>
+            <p class="card-text">Using modern web technologies for optimal performance.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 6: Ad-free -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-ad fa-3x mb-3"></i>
+            <h5 class="card-title">Ad-free</h5>
+            <p class="card-text">No ads or distractions.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 7: Tested with Real Users -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-user-check fa-3x mb-3"></i>
+            <h5 class="card-title">Tested with Real Users</h5>
+            <p class="card-text">Covers everyday use cases.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Card 8: Continuous Development -->
+      <div class="col-md-3">
+        <div class="card pros-card">
+          <div class="card-body">
+            <i class="fas fa-sync fa-3x mb-3"></i>
+            <h5 class="card-title">Continuous Development</h5>
+            <p class="card-text">Constant improvements and updates.</p>
+          </div>
         </div>
       </div>
     </div>
-  
-    <!-- Card 3: Multiplataforma -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-desktop fa-3x mb-3"></i>
-          <h5 class="card-title">Multiplataforma</h5>
-          <p class="card-text">Funcionan en PC (Windows/Linux) y como aplicaciones móviles.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Card 4: Multilenguaje -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-language fa-3x mb-3"></i>
-          <h5 class="card-title">Multilenguaje</h5>
-          <p class="card-text">Soporte para varios idiomas desde el inicio.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Card 5: Ligeras y eficientes -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-bolt fa-3x mb-3"></i>
-          <h5 class="card-title">Ligeras y eficientes</h5>
-          <p class="card-text">Utilizan tecnologías web modernas para un rendimiento óptimo.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Card 6: Libres de publicidad -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-ad fa-3x mb-3"></i>
-          <h5 class="card-title">Libres de publicidad</h5>
-          <p class="card-text">Sin anuncios ni distracciones.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Card 7: Probadas con usuarios reales -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body ">
-          <i class="fas fa-user-check fa-3x mb-3"></i>
-          <h5 class="card-title">Probadas con usuarios reales</h5>
-          <p class="card-text">Cubren casos de uso cotidianos.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Card 8: Desarrollo continuo -->
-    <div class="col-md-3">
-      <div class="card pros-card ">
-        <div class="card-body">
-          <i class="fas fa-sync fa-3x mb-3"></i>
-          <h5 class="card-title">Desarrollo continuo</h5>
-          <p class="card-text">Mejoras y actualizaciones constantes.</p>
-        </div>
-      </div>
-    </div>
+  </section>
   </div>
 
-  <!-- <h2>Misión</h2>
-  <p>Creemos que muchas aplicaciones se centran en usuarios jóvenes y familiarizados con la tecnología. Nuestra misión es crear herramientas accesibles para personas con poca experiencia tecnológica, problemas de visión o que buscan soluciones simples y fáciles de usar.</p>
- -->
-<!--   <h2>Objetivo</h2>
-  <p>Nuestro objetivo es romper las barreras digitales, ofreciendo aplicaciones que sean accesibles para todos, sin importar su edad o nivel de experiencia tecnológica. Queremos marcar la diferencia en la vida de quienes suelen ser ignorados por el mundo tecnológico actual.</p>
- -->
-  <!-- <p class="highlight">¡Explora nuestras soluciones y descubre cómo pueden ayudarte a ti o a tu organización! .</p> -->
-</section>
-</div>
 
-
-
-
-<section class="apps-section">
-  <div class="container">
-    <h2 class="text-center mt-1 mb-3 mt-2">Nuestras Aplicaciones</h2>
-
-    <div class="row g-4 pt-2 justify-content-around">
-      <!-- MiniCog Card -->
-      <div class="col-md-4">
-        <div class="card h-10rem">
-          <img src="assets/images/minicog.png" class="card-img-top" alt="MiniCog App">
-          <div class="card-body">
-            <h3 class="card-title">MiniCog</h3>
-            <div class="description-container">
-            <div class="tech-stack mb-2">
-              <i class="bi bi-filetype-tsx" title="Ionic + TypeScript"></i>
-              <i class="fas fa-mobile-alt" title="Progressive Web App (PWA)"></i>
-              <i class="bi bi-database" title="SQLite"></i>
-              <i class="fab fa-ionic" title="Ionic"></i>
-              <i class="fab fa-google-play" title="Google Play Store"></i>
-              <i class="fab fa-angular" title="Angular"></i>
-
+  <section class="apps-section">
+    <div class="container">
+      <h2 class="text-center mt-1 mb-3 mt-2">Our Applications</h2>
+  
+      <div class="row g-4 pt-2 justify-content-around">
+        <!-- MiniCog Card -->
+        <div class="col-md-4">
+          <div class="card h-10rem">
+            <img src="assets/images/minicog.png" class="card-img-top" alt="MiniCog App">
+            <div class="card-body">
+              <h3 class="card-title">MiniCog</h3>
+              <div class="description-container">
+                <div class="tech-stack mb-2">
+                  <i class="bi bi-filetype-tsx" title="Ionic + TypeScript"></i>
+                  <i class="fas fa-mobile-alt" title="Progressive Web App (PWA)"></i>
+                  <i class="bi bi-database" title="SQLite"></i>
+                  <i class="fab fa-ionic" title="Ionic"></i>
+                  <i class="fab fa-google-play" title="Google Play Store"></i>
+                  <i class="fab fa-angular" title="Angular"></i>
+                </div>
+  
+                <p class="card-description">Early dementia detection tool. Quick and effective cognitive assessment test.</p>
+                <ul class="features-list">
+                  <li>Intuitive interface</li>
+                  <li>3-minute evaluation</li>
+                  <li>Step-by-step guide, multi-language</li>
+                  <li>Voice to text</li>
+                  <li>Clinically validated</li>
+                  <li>Consultation history</li>
+                </ul>
+              </div>
+              <div>
+                <div class="button-group">
+                  <a href="/apps/afk" class="btn btn-outline-primary btn-see">Learn More</a>
+                  <a href="https://github.com/jualon92/miniCog-ionic" target="_blank" class="btn btn-outline-secondary">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
             </div>
-
-            <p class="card-description">Herramienta de detección temprana de demencia. Prueba rápida y eficaz para evaluación cognitiva.</p>
-            <ul class="features-list">
-              <li>Interfaz intuitiva</li>
-              <li>Evaluación en 3 minutos</li>
-              <li>Guia paso a paso, multi idioma</li>
-              <li>Voz a texto</li>
-              <li>Validado clínicamente</li>
-              <li>Historial de consultas</li>
-            </ul>
           </div>
-            <div>
+        </div>
+  
+        <!-- Simple Radio -->
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="assets/images/radioplay.png" class="card-img-top" alt="Simple Radio App">
+            <div class="card-body">
+              <h3 class="card-title">Simple Radio</h3>
+              <div class="description-container">
+                <div class="tech-stack mb-2">
+                  <i class="bi bi-filetype-tsx" title="Ionic + TypeScript"></i>
+                  <i class="fas fa-mobile-alt" title="Progressive Web App (PWA)"></i>
+                  <i class="fab fa-google-play" title="Google Play Store"></i>
+                  <i class="fab fa-angular" title="Angular"></i>
+                </div>
+                <p class="card-description">Simplified online radio designed for ease of use.</p>
+                <ul class="features-list">
+                  <li>Simplified interface, no extras & ads</li>
+                  <li>Avaiable as PWA or Native Android application</li>
+                  <li>Perfect for mobile phone users</li>
+                  <li>Developed with accessibility on mind</li>
+                  <li>Focused on meeting real users' daily needs</li>
+                  <li>Auto update</li>
+                </ul>
+              </div>
               <div class="button-group">
-                <a href="/apps/afk" class="btn btn-outline-primary btn-see">Ver más</a>
-                <a   href="https://github.com/jualon92/miniCog-ionic" target="_blank" class="btn btn-outline-secondary">
-                  <i class="fab fa-github  "></i> GitHub
+                <a href="/apps/radio" class="btn btn-outline-primary btn-see">Learn More</a>
+                <a href="https://github.com/jualon92/simple-radio" target="_blank" class="btn btn-outline-secondary">
+                  <i class="fab fa-github"></i> GitHub
                 </a>
               </div>
             </div>
-
           </div>
-        </div>
-      </div>
-
-     <!-- Radio Simple -->
-     <div class="col-md-4">
-      <div class="card h-100">
-        <img src="assets/images/simpleradio.png" class="card-img-top" alt="Radio Simple App">
-        <div class="card-body">
-          <h3 class="card-title">Radio Simple</h3>
-          <div class="description-container">
-            <div class="tech-stack mb-2">
-            <i class="bi bi-filetype-tsx" title="Ionic + TypeScript"></i>
-            <i class="fas fa-mobile-alt" title="Progressive Web App (PWA)"></i>
-        <!--     <i class="fas fa-cogs" title="Service Worker"></i> -->
-            <i class="fab fa-google-play" title="Google Play Store"></i>
-            <i class="fab fa-angular" title="Angular"></i>
-          </div>
-          <p class="card-description">Radio online simplificada pensada para adultos mayores. Fácil de usar, sin complicaciones.</p>
-          <ul class="features-list">
-            <li>Interfaz simplificada, sin extras ni vueltas</li>
-            <li>Enfoque en accesibilidad </li>
-            <li>Perfecta para personas que acostumbran usar celular</li>
-
-            <li>Enfocado en cubrir las demandas dia a dia de usuarios reales</li>
-          </ul>
-        </div>
-        <div class="button-group">
-          <a href="/apps/afk" class="btn btn-outline-primary btn-see">Ver más</a>
-          <a   href="https://github.com/jualon92/simple-radio"  target="_blank" class="btn btn-outline-secondary">
-            <i class="fab fa-github  "></i> GitHub
-          </a>
-        </div>
         </div>
       </div>
     </div>
-<!-- 
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="assets/images/antiafk.png" class="card-img-top"     alt="Anti AFK App">
-        <div class="card-body">
-          <h3 class="card-title">Anti AFK</h3>
-          <div class="description-container mb-2 ">
-            <div class="tech-stack mb-2">
-            <i class="bi bi-filetype-tsx" title="TypeScript"></i>
-            <i class="fas fa-cogs" title="Tauri"></i>
-            <i class="fab fa-rust" title="Rust"></i>
+  </section>
 
-            <i class="fab fa-angular" title="Angular"></i>
-          </div>
-          <p class="card-description">Herramienta multi plataforma para prevenir el apagado de monitores y mantener la sesión activa. </p>
-          <ul class="features-list">
-            <li>Mantiene sesion activa </li>
-            <li>No interfiere a usuario, discreto</li>
-            <li>Interfaz gráfica minimalista</li>
-            <li>Horarios personalizables</li>
-            <li>Ligero y eficiente</li>
 
-          </ul>
-        </div>
-        <div class="button-group">
-          <a href="/apps/afk" class="btn btn-outline-primary btn-see">Ver más</a>
-          <a   href="https://github.com/jualon92/simpleAntiAfk" target="_blank" class="btn btn-outline-secondary">
-            <i class="fab fa-github  "></i> GitHub
-          </a>
-        </div>
-        </div>
-      </div>
-    </div> -->
-  </div>
-</div>
-</section>
 
 
 
 
 <section class="services-section">
   <div class="container">
-    <h2 class="text-center mt-4 mb-4">¿Qué Ofrecemos?</h2>
+    <h2 class="text-center mt-4 mb-4">What We Offer</h2>
     <div class="row g-4">
-      <!-- Integración de Sistemas -->
+      <!-- Systems Integration -->
       <div class="col-md-6">
         <div class="card h-100">
           <div class="card-body">
-            <h3>Integración de Sistemas</h3>
-            <p>Conectamos y optimizamos sus sistemas existentes para mayor eficiencia operativa.</p>
+            <h3>Systems Integration</h3>
+            <p>We connect and optimize your existing systems for greater operational efficiency.</p>
           </div>
         </div>
       </div>
 
-      <!-- Software a Medida -->
+      <!-- Custom Software -->
       <div class="col-md-6">
         <div class="card h-100">
           <div class="card-body">
-            <h3>Software a Medida</h3>
-            <p>Desarrollamos soluciones personalizadas adaptadas a sus necesidades específicas.</p>
+            <h3>Custom Software</h3>
+            <p>We develop customized solutions tailored to your specific needs.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <div class="py-4"></div>
